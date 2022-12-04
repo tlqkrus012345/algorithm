@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  * 최단경로탐색 알고리즘
  * 특정 정점에서 다른 모든 정점으로 가는 최단 경로를 기록한다
+ * 우선순위 큐 사용하면 시간복잡도는 O(ElogV)
  */
 class Node implements Comparable<Node> {
     private int index;
@@ -81,7 +82,7 @@ public class Dijkstra {
             }
             for(int i=0; i<graph.get(now).size(); i++) {
                 int cost = d[now] + graph.get(now).get(i).getDistance();
-                if(cost < graph.get(now).get(i).getIndex()) {
+                if(cost < d[graph.get(now).get(i).getIndex()]) {
                     d[graph.get(now).get(i).getIndex()] = cost;
                     pq.offer(new Node(graph.get(now).get(i).getIndex(), cost));
                 }
