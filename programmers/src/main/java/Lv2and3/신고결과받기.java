@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.*;
 public class 신고결과받기 {
     public int[] solution(String[] id_list, String[] report, int k) {

@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 이진변환반복하기 {
     public int[] solution(String s) {
     int[] answer = new int[2];

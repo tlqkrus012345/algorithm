@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.Arrays;
 
 public class 입국심사 {

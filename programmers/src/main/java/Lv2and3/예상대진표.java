@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 예상대진표 {
     public int solution(int n, int a, int b)
     {

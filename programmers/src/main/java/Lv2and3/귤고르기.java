@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.*;
 public class 귤고르기 {
     public int solution(int k, int[] tangerine) {

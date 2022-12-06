@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 등굣길 {
     public int solution(int m, int n, int[][] puddles) {
         int[][] map = new int[n+1][m+1];

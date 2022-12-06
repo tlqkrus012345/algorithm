@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 모음사전 {
     static final String MAPPING = "AEIOU";
     static final int[] RATE_OF_INCREASE = {781, 156, 31, 6, 1};

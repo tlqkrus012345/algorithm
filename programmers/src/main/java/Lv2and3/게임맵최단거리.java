@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.*;
 public class 게임맵최단거리 {
     class Node{

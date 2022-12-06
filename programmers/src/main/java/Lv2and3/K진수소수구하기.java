@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class K진수소수구하기 {
     public int solution(int number, int k) {
         int answer = 0;

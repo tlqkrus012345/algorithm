@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 단어변환 {
     int answer = 0;
     boolean[] visit;

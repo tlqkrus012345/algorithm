@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.*;
 public class 이중우선순위큐 {
     public int[] solution(String[] operations) {

@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.*;
 public class 더맵게 {
     public int solution(int[] scoville, int K) {

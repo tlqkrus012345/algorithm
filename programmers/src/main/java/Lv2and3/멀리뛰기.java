@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 멀리뛰기 {
     long[] d;
     public long solution(int n) {

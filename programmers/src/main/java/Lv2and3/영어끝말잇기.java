@@ -1,3 +1,5 @@
+package Lv2and3;
+
 import java.util.*;
 public class 영어끝말잇기 {
     public int[] solution(int n, String[] words) {

@@ -1,3 +1,5 @@
+package Lv2and3;
+
 public class 피로도 {
     boolean[] visit;
     int answer = 0;
